@@ -1,0 +1,366 @@
+@font-face {
+    font-family: BlenderPro-Heavy;
+    src: url("assets/fonts/BlenderPro-Heavy/BlenderPro-Heavy.woff");
+  }
+*{
+    margin:0;
+    padding:0;
+    font-family: BlenderPro-Heavy;
+    box-sizing: border-box;
+    
+  }
+  #navbar{
+    width:100%;
+    height:100vh;
+    background-image: url("https://s7g10.scene7.com/is/image/ktm/waw-video2:XLarge?wid=2363&hei=1350&dpr=off");
+    background-size: cover;
+    object-fit: scale-down;
+    background-position: 0px -115px;
+
+    
+  }
+  nav{
+    width: 100%;
+    height: 50px;
+    line-height: 150px;
+    font-size: larger;
+    padding: 10px;
+  }
+  nav ul{
+    float: left;
+  }
+  nav ul li{
+    display: inline-block;
+    
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 30px;
+  }
+
+  nav ul .icon1{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 75px;
+    right: 300px;
+    
+   
+  }
+  nav ul .icon2{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 75px;
+    right: 350px;
+    
+   
+  }
+
+
+.logo img{
+    position: absolute;
+    width: 150px;
+    float: right;
+    margin-right: 30px;
+    top: 0;
+    right: 30px;
+}
+
+.title{
+    position: absolute;
+    top: 300px;
+    left: 620px;
+    font-size: 25px;
+    color: white;
+}
+
+.main-title{
+    position: absolute;
+    top: 350px;
+    left: 420px;
+    font-size: 75px;
+    color: white;
+}
+.btns{
+    position: absolute;
+    top: 450px;
+    left: 490px;
+}
+.btn1,.btn2{
+    margin: 20px;
+    min-height: 75px;
+    padding: 22px 50px;
+    font-size: 20px;
+    line-height: 28px;
+    border-style: none;
+    background-color: #ff6600;
+    color: white;
+    transition: background-color .3s ease-in-out,color .3s,border-color .3s;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: #ff6600;
+    border: 1px solid #ff6600;
+}
+.btn2:hover{
+    background-color: transparent;
+    color: #ff6600;
+    border: 1px solid #ff6600;
+}
+
+.sec2{
+    max-width: 100%;
+    padding: 50px;
+    padding-top: 70px;
+    background-color: #fff;
+}
+.sec2-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.sec2-grid-item{
+    height: 350px;
+    text-align: center;
+
+}
+
+
+.sec2-grid-item img{
+    width: 100%;
+    height: 300px;
+}
+
+.sec2-grid-item h4{
+    margin-top: 30px;
+}
+
+
+
+.sec3{
+    max-width: 100%;
+    padding: 50px;
+    padding-top: 70px;
+    background-color: #fff;
+    margin-bottom: 120px;
+
+}
+.sec3-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+
+.sec3-grid-item{
+    height: 600px;
+
+}
+.sec3-grid-item img{
+    width: 100%;
+    height: 450px;
+}
+.sec3-grid-item h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sec3-grid-item h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.sec3-grid-item p{
+    font-weight: 100px;
+}
+.sec4{
+    margin: 30px;
+    display: flex;
+}
+.sec4-col1{
+    
+    display: grid;
+    /* background-color: #ff6600; */
+    width: 40%;
+    grid-template-columns: auto auto;
+    
+}
+.sec4-col2{
+    width: 70%;
+    height: 500px;
+    margin-left: 175px;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.video1 video{
+    width: 380px;
+    height: 250px ;
+    /* object-position:0  125px  ; */
+    object-fit: cover;
+    
+}
+
+.img1 img{
+    width: 380px;
+    height: 250px ;
+    object-fit: cover;
+    margin-top: -5px;
+}
+
+
+.sec4-col2 h2{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.sec4-col2 hr{
+    width: 65px;
+    margin-left: 320px;
+    color: #fff;
+    height: 1px;
+    
+}
+.sec4-col2 p{
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.sec4-col2 button{
+    margin-left: 293px;
+    margin-top: 30px;
+    padding: 1.35em 2.778em 1.05em;
+    font-weight: 700;
+    font-size: .9em;
+    color:white;
+    background-color: #000000;
+    border-color: white;
+}
+.sec4-col2 button:hover{
+    border-color: #ff6600;
+    color:#ff6600;
+}
+.sec5{
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.sec5 p{
+    margin:30px;
+    margin-bottom: 60px;
+    font-size: 1.3em;
+}
+.sec5 button{
+    background-color: transparent;
+    color: #f60;
+    border-color: #f60;
+    min-height: 75px;
+    padding: 22px 50px;
+    font-size: 20px;
+    line-height: 28px;
+    border: 1px solid;
+    margin-bottom: 30px;
+}
+.sec5 button:hover{
+    background-color: #ff6600;
+    color: white;
+}
+.sec6{
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    color: gray;
+    line-height: 25px;
+}
+.sec6 p{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 28px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    color: #bdbdbd;
+    
+}
+.sec7{
+    height: 550px;
+    background-color: #000000;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+}
+
+.col ul{
+    list-style: none;
+}
+.col ul li{
+    line-height: 35px;
+    font-size: 18px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.col ul li:hover{
+    cursor: pointer;
+    color: #ff6600;
+}
+
+.col h2{
+    margin-bottom: 20px;
+    color: white;
+}
+.col i{
+    color: white;
+    margin-right: 10px;
+    font-size: larger;
+}
+.col i:hover{
+    cursor: pointer;
+    color: #ff6600;
+}
+
+.sec8{
+    background-color: #000000;
+    height: 70px;
+    position: relative;
+    
+    
+    
+
+}
+.sec8 h4{
+    color: #bdbdbd;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    font-weight: 100;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec8 a{
+    color: #ff6600;
+    position: absolute;
+    top: 35%;
+    right: 35px;
+    text-decoration: none;
+    font-size: large;
+
+
+}
+.sec8 a i {
+    margin-left: 10px;
+}
